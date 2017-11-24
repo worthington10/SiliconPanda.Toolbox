@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/SiliconPanda.Toolbox/v15/Server/sqlite3
+/SiliconPanda.Toolbox.AmbientContext/.vs/SiliconPanda.Toolbox.AmbientContext/v15/Server/sqlite3
+/SiliconPanda.Toolbox.AmbientContext/SiliconPanda.Toolbox.AmbientContext/bin/Debug/netcoreapp2.0
+/SiliconPanda.Toolbox.AmbientContext/SiliconPanda.Toolbox.AmbientContext.Tests/bin/Debug/netcoreapp2.0
+/SiliconPanda.Toolbox.AmbientContext/SiliconPanda.Toolbox.AmbientContext.Tests/obj
