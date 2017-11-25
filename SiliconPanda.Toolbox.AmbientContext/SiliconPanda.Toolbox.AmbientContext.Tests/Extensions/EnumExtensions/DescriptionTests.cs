@@ -7,14 +7,11 @@ namespace SiliconPanda.Toolbox.AmbientContext.Tests.Extensions.EnumExtensions
     [TestFixture]
     public class DescriptionTests
     {
-        public class EnumExtensions
+        [TestCase(TestEnum.Test, ExpectedResult = "Test")]
+        [TestCase(TestEnum.Test, ExpectedResult = "Another Test")]
+        public string EnumShouldReturnDescription(TestEnum value)
         {
-            [TestCase(TestEnum.Test, ExpectedResult = "Test")]
-            [TestCase(TestEnum.Test, ExpectedResult = "Another Test")]
-            public string EnumShouldReturnDescription(TestEnum value)
-            {
-                return value.Description();
-            }
+            return value.Description();
         }
 
         public enum TestEnum
