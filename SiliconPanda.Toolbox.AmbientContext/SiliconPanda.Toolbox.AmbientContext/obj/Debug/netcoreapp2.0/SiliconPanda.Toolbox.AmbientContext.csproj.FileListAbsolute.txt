@@ -1,9 +1,0 @@
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\bin\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.deps.json
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\bin\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.dll
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.csprojResolveAssemblyReference.cache
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.csproj.CoreCompileInputs.cache
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.AssemblyInfoInputs.cache
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.AssemblyInfo.cs
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\bin\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.pdb
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.dll
-C:\worthingtown\GitHub\SiliconPanda.Toolbox\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext\obj\Debug\netcoreapp2.0\SiliconPanda.Toolbox.AmbientContext.pdb
