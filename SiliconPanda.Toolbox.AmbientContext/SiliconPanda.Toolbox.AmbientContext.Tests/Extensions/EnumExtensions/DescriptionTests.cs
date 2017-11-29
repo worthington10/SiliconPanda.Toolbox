@@ -8,7 +8,7 @@ namespace SiliconPanda.Toolbox.AmbientContext.Tests.Extensions.EnumExtensions
     public class DescriptionTests
     {
         [TestCase(TestEnum.Test, ExpectedResult = "Test")]
-        [TestCase(TestEnum.Test, ExpectedResult = "Another Test")]
+        [TestCase(TestEnum.AnotherTest, ExpectedResult = "Another Test")]
         public string EnumShouldReturnDescription(TestEnum value)
         {
             return value.Description();
