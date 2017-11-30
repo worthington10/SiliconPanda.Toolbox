@@ -13,19 +13,22 @@ dotnet_csproj:
   assembly_version: '{version}'
   file_version: '{version}'
   informational_version: '{version}'
+environment:
+  myget_apikey: e9b1620e-a713-44c8-b424-79dc235d42ab
 nuget:
   account_feed: true
   project_feed: true
 before_build:
 - cmd: >-
     cd SiliconPanda.Toolbox.AmbientContext
+
     dotnet restore
 build:
   project: SiliconPanda.Toolbox.AmbientContext
   publish_nuget: true
   publish_nuget_symbols: true
   verbosity: normal
-  test_script:
+test_script:
 - ps: ForEach ($folder in (Get-ChildItem -Path tests -Directory)) { dotnet test $folder.FullName }
 artifacts:
 - path: '**\*.nupkg'
@@ -33,4 +36,5 @@ artifacts:
 deploy_script:
 - ps: >-
     dotnet pack
+
     dotnet nuget push **/*.nupkg -s https://www.myget.org/F/silicon_panda/api/v3/index.json -k %myget_apikey%
