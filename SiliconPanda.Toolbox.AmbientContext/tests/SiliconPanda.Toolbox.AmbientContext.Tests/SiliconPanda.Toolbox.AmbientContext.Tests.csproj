@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext.csproj" />
+    <ProjectReference Include="..\..\src\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext.csproj" />
   </ItemGroup>
 
 </Project>

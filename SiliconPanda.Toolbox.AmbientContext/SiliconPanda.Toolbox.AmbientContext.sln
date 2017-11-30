@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconPanda.Toolbox.AmbientContext", "SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext.csproj", "{DE7AA4B0-E4E3-404D-9D31-9302314BF5E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiliconPanda.Toolbox.AmbientContext", "src\SiliconPanda.Toolbox.AmbientContext\SiliconPanda.Toolbox.AmbientContext.csproj", "{DE7AA4B0-E4E3-404D-9D31-9302314BF5E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DC8BF900-422E-457F-BD16-3E9BA980EA84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconPanda.Toolbox.AmbientContext.Tests", "SiliconPanda.Toolbox.AmbientContext.Tests\SiliconPanda.Toolbox.AmbientContext.Tests.csproj", "{8586C5ED-780D-4490-9CC2-3E81145B7CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiliconPanda.Toolbox.AmbientContext.Tests", "tests\SiliconPanda.Toolbox.AmbientContext.Tests\SiliconPanda.Toolbox.AmbientContext.Tests.csproj", "{8586C5ED-780D-4490-9CC2-3E81145B7CD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{173A871A-B480-443F-94D8-8353F9ACF536}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{DE7AA4B0-E4E3-404D-9D31-9302314BF5E3} = {173A871A-B480-443F-94D8-8353F9ACF536}
 		{8586C5ED-780D-4490-9CC2-3E81145B7CD0} = {DC8BF900-422E-457F-BD16-3E9BA980EA84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
