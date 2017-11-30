@@ -25,6 +25,8 @@ build:
   publish_nuget: true
   publish_nuget_symbols: true
   verbosity: normal
+  test_script:
+- ps: ForEach ($folder in (Get-ChildItem -Path tests -Directory)) { dotnet test $folder.FullName }
 artifacts:
 - path: '**\*.nupkg'
   name: NuGet
@@ -32,6 +34,3 @@ deploy_script:
 - ps: >-
     dotnet pack
     dotnet nuget push **/*.nupkg -s https://www.myget.org/F/silicon_panda/api/v3/index.json -k %myget_apikey%
-test_script:
-- ps:  >-
-ForEach ($folder in (Get-ChildItem -Path tests -Directory)) { dotnet test $folder.FullName }
