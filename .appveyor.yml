@@ -14,7 +14,8 @@ dotnet_csproj:
   file_version: '{version}'
   informational_version: '{version}'
 environment:
-  myget_apikey: e9b1620e-a713-44c8-b424-79dc235d42ab
+  myget_apikey:
+    secure: ybhFOPHQZpLsHw1R066EawMS1i0bPymO88TphSzAuckcZzNjn/5lAIE075o3HMzt
 nuget:
   account_feed: true
   project_feed: true
@@ -37,4 +38,4 @@ deploy_script:
 - ps: >-
     dotnet pack
 
-    dotnet nuget push **/*.nupkg -s https://www.myget.org/F/silicon_panda/api/v3/index.json -k %myget_apikey%
+    dotnet nuget push **/*.nupkg -s https://www.myget.org/F/silicon_panda/api/v3/index.json -k $env:myget_apikey
